@@ -1,0 +1,107 @@
+html {
+  background: url(http://static.hdw.eweb4.com/media/thumbs/1/61/601744.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Start Button For Go Back Button! */
+
+.GoBack {
+	background-color:#44c767;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:11px;
+	padding:12px 8px;
+	text-decoration:none;
+}
+.GoBack:hover {
+	background-color:#5cbf2a;
+}
+.GoBack:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Button Go Back! */
+
+/* Start Of Button Top Mods! */
+
+.TopMods {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.TopMods:hover {
+	background-color:#5cbf2a;
+}
+.TopMods:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Button Top Mods! */
+
+/* Start  Of Button Use Full Mods! */
+.UseFulSeeds {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.UseFulSeeds:hover {
+	background-color:#5cbf2a;
+}
+.UseFulSeeds:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Button Use Ful Seeds! */
+
+/* Start  Of Button Featured ! */
+
+.FeaturedSeeds {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.FeaturedSeeds:hover {
+	background-color:#5cbf2a;
+}
+.FeaturedSeeds:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Button Featured ! */
