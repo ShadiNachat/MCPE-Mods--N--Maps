@@ -1,53 +1,108 @@
 html {
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzwRmWQ97MZ3GYYJr_K1eqv2zhAoQAJGUqYWS1khH7H-_LGrjALbyoaw5y) no-repeat center center fixed;
+  background: url(http://static.hdw.eweb4.com/media/thumbs/1/61/601744.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.button {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 7px 14px;
-    border: 1px solid #1100fc;
-    border-radius: 0px;
-    background: #3c23f7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#3c23f7), to(#0303ff));
-    background: -moz-linear-gradient(top, #3c23f7, #0303ff);
-    background: linear-gradient(to bottom, #3c23f7, #0303ff);
-    text-shadow: #591717 1px 1px 1px;
-    font: normal normal bold 5px arial;
-    color: #ffffff;
-    text-decoration: none;
+/* Start Button For Go Back Button! */
+
+.GoBack {
+	background-color:#44c767;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:11px;
+	padding:12px 8px;
+	text-decoration:none;
 }
-.button:hover,
-.button:focus {
-    border: 1px solid #2b00ff;
-    background: #482aff;
-    background: -webkit-gradient(linear, left top, left bottom, from(#482aff), to(#0404ff));
-    background: -moz-linear-gradient(top, #482aff, #0404ff);
-    background: linear-gradient(to bottom, #482aff, #0404ff);
-    color: #ffffff;
-    text-decoration: none;
+.GoBack:hover {
+	background-color:#5cbf2a;
 }
-.button:active {
-    background: #241594;
-    background: -webkit-gradient(linear, left top, left bottom, from(#241594), to(#0303ff));
-    background: -moz-linear-gradient(top, #241594, #0303ff);
-    background: linear-gradient(to bottom, #241594, #0303ff);
+.GoBack:active {
+	position:relative;
+	top:1px;
 }
-.button:before{
-    content: "\0000a0";
-    display: inline-block;
-    height: 24px;
-    width: 24px;
-    line-height: 24px;
-    margin: 0 4px -6px -4px;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEG0lEQVRIiYVVXWgcVRT+7t3J/iSb3SHZDTXYdIuCla1mKRFjKQiK9EERlCoShN0X04cIUqRCEfHBRk2tpIrFCkVGotEHRaJijT/dYEEsQiT6YExF8xBbN9nuTmZ3szu7s/f4kLmT2dmkvXC4HzNzz8833zmXEREHIABwtC/3c4ndO26GOQBBRG6HboP9zsErOT14Vvs5cvVqiXsCbosVAJwx5s3WCWi/4xKPnvzs0cXFVXVo8Jbz/f3dgog4Y0wm0Ia95XuX82wltx5+5Dnt6Vyx9hGhuYcYcQCQDnfC3EWDlyZI+lZyevjE2xcydcEnUsm9CtjOiXix4qKh7YAsc+zVmdE6fMcTe/r7ICxvEjf8yexGKlrJratjr888y/zBl2LxXmVt3UQ8zJH98bdpNBpTRCS8ZwBg+MC+wvTEkXkAQnHTIaMSER8/ZfRcqXz7vOAdo7FYr7Kq19AUhFAohGQyMUJEI5JZAoEIAG3uxMyLAB4EAMXLGxHxY7OzmJlde+XuIf9TvfGYmteraBKBgeG/oolAV8R27BxysBoOYCN/zalGcfHGjXINE29d6v/+8p/j9xwcGAmGw0q+ZIIEwBgDCKiYFpidNcDasGU5rPE2il4+98PAd/NL43ckdz/u7worhZIJQQQpAmJku4Gze7Fobdotik6+943/wk9LZ5P7Bh7wh7o6r69XsfWtW8Ytkm5bDUu0qFgGgNqAVSXfalEvW36TUCiboB18bRKyPbbqJuKBzaRhzyIOQIyNHRYPDd9/4srvofc3yoaudgXA2/sDcDncDguxRRERcakezhgTp48O5j8+fXhcDfnOV8uGFenswA4xdlxNO4B7Fjm/XVWBQ/dG81+cSR9Xg/yUoRfz4aDSEqTDx6E4xuDjm8Y5A2cMTZtXKQyHIldHAwB/98XH3ri9PzJpFIurnX7FoSsUYLCqZTQ2SqjbZlZKMMslmBUDpaLeQpGjInv6OdM1f+0f4/LnE+dqvYfqfXv3vxaORBWz0YRZa+DfpV8/Wf/70pRoVCybcQEAmUxGZNIZEQkHdGd0ExGIiBMRstksT6fTHIAfQCeACAB1132jL+x/8kzu4NEpGn7mA4rd9cQkV4K7AMQA9ABQ7W87AfgHBweVbDbLi8UinGFHRJxzzrHV3Yo0XyAS6bnz4SPx24aOhbrVvuVfvnynsPj1JDXrFgBpAkDd3i0AVjabFV6KZLnuySqaplEu/PHVp+BsI7r7wJu2OFuuVrdYAIh0Oi1SqRQUt0MigqZplqZpQtd1sbCwYEkhNM1SbW1++kPGFYPxDpUxpUyoy8xFNBoVqVRKALDm5ubkOdFCkasKvry8DE3TZEZOv/iCUX+w+9Zg9fpfhhCmk30ikUAmk5F+HBXJAF5qtr1I5LrZRe/G/wNiZzotpZSbbQAAAABJRU5ErkJggg==") no-repeat left center transparent;
-    background-size: 100% 100%;
+
+/* End Of Button Go Back! */
+
+/* Start Code For PVP Button! */
+
+.PVP {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
 }
+.PVP:hover {
+	background-color:#5cbf2a;
+}
+.PVP:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Code For PVP Button! */
+
+/* Start Code For Survival Button! */
+
+.Survival {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.Survival:hover {
+	background-color:#5cbf2a;
+}
+.Survival:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Code For Survival Button! */
+
+/* Start Code For Mini games Button! */
+
+.MiniGames {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.MiniGames:hover {
+	background-color:#5cbf2a;
+}
+.MiniGames:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Code For MiniGames Button! */
