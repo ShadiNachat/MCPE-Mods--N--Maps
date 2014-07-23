@@ -1,3 +1,11 @@
+html {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzwRmWQ97MZ3GYYJr_K1eqv2zhAoQAJGUqYWS1khH7H-_LGrjALbyoaw5y) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .button {
     display: inline-block;
     text-align: center;
