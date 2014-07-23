@@ -106,3 +106,53 @@ html {
 }
 
 /* End Code For MiniGames Button! */
+
+/* Start Code For Parkour Button! */
+.Parkour  {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.Parkour :hover {
+	background-color:#5cbf2a;
+}
+.Parkour :active {
+	position:relative;
+	top:1px;
+}
+
+/* End Code For Parkour Button! */
+
+/* Start Code for Adventure Button! */
+
+.Adventure {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.Adventure:hover {
+	background-color:#5cbf2a;
+}
+.Adventure:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* End Code For Adventure Button! */
