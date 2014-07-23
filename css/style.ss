@@ -50,6 +50,53 @@ html {
 	top:1px;
 }
 /* End Of MCPE Maps Button*/
+
+.Skins {
+background-color:#44c767;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:20px 37px;
+	text-decoration:none;
+}
+.Skins:hover {
+	background-color:#5cbf2a;
+}
+.Skins:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Skins Button! */
+
+.Seeds {
+	background-color:#44c767;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:20px 37px;
+	text-decoration:none;
+}
+.Seeds:hover {
+	background-color:#5cbf2a;
+}
+.Seeds:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Seeds Button! */
+
 .About {
 	background-color:#44c767;
 	-moz-border-radius:17px;
@@ -70,6 +117,9 @@ html {
 	position:relative;
 	top:1px;
 }
+
+
 /* End Of About Button! */
+
 
 
