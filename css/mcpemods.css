@@ -31,3 +31,77 @@ html {
 }
 
 /* End Of Button Go Back! */
+
+/* Start Of Button Top Mods! */
+
+.TopMods {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.TopMods:hover {
+	background-color:#5cbf2a;
+}
+.TopMods:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Button Top Mods! */
+
+/* Start  Of Button Use Full Mods! */
+.UseFullMods {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.UseFullMods:hover {
+	background-color:#5cbf2a;
+}
+.UseFullMods:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Button Use Full Mods! */
+
+/* Start  Of Button Featured ! */
+
+.FeaturedMods {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 28px;
+	text-decoration:none;
+}
+.FeaturedMods:hover {
+	background-color:#5cbf2a;
+}
+.FeaturedMods:active {
+	position:relative;
+	top:1px;
+}
+
+/* End Of Button Featured ! */
