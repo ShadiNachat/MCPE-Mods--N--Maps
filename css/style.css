@@ -1,159 +1,125 @@
-html {
-  background: url(http://static.hdw.eweb4.com/media/thumbs/1/61/601744.jpg) no-repeat center center fixed;
+html { 
+  background: url(http://static.hdw.eweb4.com/media/thumbs/1/61/601744.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-/* Start Button For Go Back Button! */
-
-.GoBack {
+.MCPEMODS {
 	background-color:#44c767;
-	-moz-border-radius:42px;
-	-webkit-border-radius:42px;
-	border-radius:42px;
-	border:1px solid #18ab29;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:arial;
-	font-size:11px;
-	padding:12px 8px;
+	font-family:Arial;
+	font-size:15px;
+	padding:20px 37px;
 	text-decoration:none;
 }
-.GoBack:hover {
+.MCPE MODS:hover {
 	background-color:#5cbf2a;
 }
-.GoBack:active {
+.MCPE MODS:active {
 	position:relative;
 	top:1px;
 }
 
-/* End Of Button Go Back! */
+/* End Of Mods Button! */
 
-/* Start Code For PVP Button! */
-
-.PVP {
+.MCPEMAPS {
 	background-color:#44c767;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:arial;
-	font-size:19px;
-	padding:7px 28px;
+	font-family:Arial;
+	font-size:15px;
+	padding:20px 37px;
 	text-decoration:none;
 }
-.PVP:hover {
+.MCPEMAPS:hover {
 	background-color:#5cbf2a;
 }
-.PVP:active {
+.MCPEMAPS:active {
+	position:relative;
+	top:1px;
+}
+/* End Of MCPE Maps Button*/
+
+.Skins {
+background-color:#44c767;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:20px 37px;
+	text-decoration:none;
+}
+.Skins:hover {
+	background-color:#5cbf2a;
+}
+.Skins:active {
 	position:relative;
 	top:1px;
 }
 
-/* End Code For PVP Button! */
+/* End Of Skins Button! */
 
-/* Start Code For Survival Button! */
-
-.Survival {
+.Seeds {
 	background-color:#44c767;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:arial;
-	font-size:19px;
-	padding:7px 28px;
+	font-family:Arial;
+	font-size:15px;
+	padding:20px 37px;
 	text-decoration:none;
 }
-.Survival:hover {
+.Seeds:hover {
 	background-color:#5cbf2a;
 }
-.Survival:active {
+.Seeds:active {
 	position:relative;
 	top:1px;
 }
 
-/* End Code For Survival Button! */
+/* End Of Seeds Button! */
 
-/* Start Code For Mini games Button! */
-
-.MiniGames {
+.About {
 	background-color:#44c767;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:arial;
-	font-size:19px;
-	padding:7px 28px;
+	font-family:Arial;
+	font-size:15px;
+	padding:20px 37px;
 	text-decoration:none;
 }
-.MiniGames:hover {
+.About:hover {
 	background-color:#5cbf2a;
 }
-.MiniGames:active {
-	position:relative;
-	top:1px;
-}
-
-/* End Code For MiniGames Button! */
-
-/* Start Code For ParKour Button! */
-
-.Parkour {
-	background-color:#44c767;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:arial;
-	font-size:19px;
-	padding:7px 28px;
-	text-decoration:none;
-}
-.Parkour:hover {
-	background-color:#5cbf2a;
-}
-.Parkour:active {
-	position:relative;
-	top:1px;
-}
-
-/* End Code For Parkour Button! */
-
-/* Start Code For Adventure Button! */
-
-.Adventure {
-	background-color:#44c767;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:arial;
-	font-size:19px;
-	padding:7px 28px;
-	text-decoration:none;
-}
-.Adventure:hover {
-	background-color:#5cbf2a;
-}
-.Adventure:active {
+.About:active {
 	position:relative;
 	top:1px;
 }
 
 
-/* End Code For Andventure Button! */
+/* End Of About Button! */
+
+
+
