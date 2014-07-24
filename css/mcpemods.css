@@ -71,10 +71,10 @@ html {
 	padding:7px 28px;
 	text-decoration:none;
 }
-.UseFullMods:hover {
+.UseFulMods:hover {
 	background-color:#5cbf2a;
 }
-.UseFullMods:active {
+.UseFulMods:active {
 	position:relative;
 	top:1px;
 }
